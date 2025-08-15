@@ -5,7 +5,7 @@
   "scripts": {
     "server:build": "tsc",
     "server:build:watch": "tsc --watch",
-    "server:dev": "tsx server/server.ts",
+    "server:dev": "tsx src/server.ts",
     "server:inspect": "set DANGEROUSLY_OMIT_AUTH=TRUE &&  npx @modelcontextprotocol/inspector npm run server:dev"
   },
   "keywords": [],
